@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 app.get('/news', async (req, res) => {
     const config = {
         method: 'get',
-        url: 'https://newsapi.org/v2/everything?apiKey=28d38df90e1741a5ba95d0a7d8a27054',
+        url: 'https://newsapi.org/v2/everything?apiKey=b1f634806c3c485a83af4480a60b3230',
         params: {
             q: req.query.query,
             language: req.query.lang
